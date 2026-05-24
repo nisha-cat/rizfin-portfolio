@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#120102" />
+    <meta
+      name="description"
+      content="Luxury cinematic photography and videography portfolio."
+    />
+    <title>Cinematic Photographer & Videographer</title>
+    <style>
+      .launch-screen {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background: #120102;
+        color: #f5e6d3;
+        font-family: Georgia, serif;
+        text-align: center;
+        padding: 32px;
+      }
+      .launch-screen h1 {
+        font-size: clamp(40px, 8vw, 96px);
+        line-height: 0.9;
+        margin: 0 0 18px;
+      }
+      .launch-screen p {
+        max-width: 560px;
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0 auto 24px;
+        color: rgba(245, 230, 211, 0.72);
+      }
+      .launch-screen .status {
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: rgba(245, 230, 211, 0.55);
+      }
+      .launch-screen a {
+        color: #f5e6d3;
+      }
+    </style>
+    <script type="module" crossorigin src="/assets/index-CO8jBSrr.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-8EgrPEbT.css">
+  </head>
+  <body>
+    <div id="root">
+      <div class="launch-screen">
+        <div>
+          <h1>Cinematic Portfolio</h1>
+          <p id="launch-message">
+            Loading portfolio...
+          </p>
+          <p class="status" id="launch-status">Please wait</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      (function () {
+        if (location.protocol !== 'file:') return;
+
+        var DEV_URL = 'http://127.0.0.1:5173/';
+        var message = document.getElementById('launch-message');
+        var status = document.getElementById('launch-status');
+
+        message.textContent =
+          'Opening your portfolio in the browser. If nothing loads, double-click start-portfolio.bat in this folder first, then refresh.';
+        status.textContent = 'Redirecting';
+
+        setTimeout(function () {
+          location.replace(DEV_URL);
+        }, 900);
+      })();
+    </script>
+  </body>
+</html>
