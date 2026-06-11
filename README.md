@@ -8,8 +8,6 @@ A luxury dark-themed portfolio website for a photographer and videographer. Buil
 
 https://rizfin-portfolio.vercel.app/
 
-> After deploying on Vercel, replace the placeholder above with your live URL.
-
 ## Features
 
 - Cinematic hero section with photo/video background
