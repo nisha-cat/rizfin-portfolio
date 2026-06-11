@@ -4,9 +4,9 @@ A luxury dark-themed portfolio website for a photographer and videographer. Buil
 
 ## Live Demo
 
-**Website:** [Add your Vercel link here after deployment]
+**Website:** 
 
-Example: `https://your-portfolio.vercel.app`
+https://rizfin-portfolio.vercel.app/
 
 > After deploying on Vercel, replace the placeholder above with your live URL.
 
@@ -65,12 +65,9 @@ Open `http://127.0.0.1:5173`
 npm run build
 ```
 
-`prepare-media` scans uploads and writes `src/data/media-manifest.json`. When the optional `sharp` package is available, it also creates responsive WebP variants in `public/optimized`; otherwise it falls back to the original uploaded files while keeping lazy loading and responsive sizing enabled.
 
 ## Deploy
-
-This project is ready for [Vercel](https://vercel.com):
-
+vercel
 - **Build Command:** `npm run build`
 - **Output Directory:** `dist`
 
@@ -78,7 +75,6 @@ This project is ready for [Vercel](https://vercel.com):
 
 - Instagram: [@_rizfin](https://www.instagram.com/_rizfin)
 - Email: Rizfinrinu29@gmail.com
-- WhatsApp: +91 7736631071
 
 ## License
 
